@@ -1,0 +1,148 @@
+
+    body{
+    
+        background-color: #726060;
+        padding: 0px;
+        margin: 0px;
+    }
+    .main-content{
+        height: 1000px;
+        width: 90%;
+        display: grid;
+        grid-template-columns: 300px 700px;
+        font-family: 'Baloo Bhai 2', cursive;
+        font-family: 'Oswald', sans-serif;
+        font-family: 'Ubuntu', sans-serif;
+    
+    }
+
+    .left-section{
+        background-color: #181616;
+        padding: 1rem;
+        color: white;
+        grid-column: span 1;
+    }
+        
+
+
+    .image{
+        display: block;
+        margin: auto;
+        border: 5px solid white;
+        border-radius: 30%;
+        width: 60%;
+    }
+    .name{
+        font-size: 1.2rem;
+        font-weight: 700;       
+        text-align: center;
+        text-transform: uppercase;
+        letter-spacing: 00.02px;
+    padding: 0.8rem;
+    }
+
+    .designation{
+        font-size: 1rem;
+        text-align: center;
+        text-transform: uppercase;
+        padding-bottom: 0.5rem;
+    }
+
+    .description{
+    font-size: 0.75rem;   
+    text-align: center;
+    padding: 1rem;
+    }
+
+    .contact-item{
+        display: flex;
+        flex-direction: column;
+        margin: auto;   
+    
+    }
+    .contact{
+        display: flex;
+        justify-content: space-around;
+        padding: 1rem;
+        font-size: 1.5rem;  
+    }
+
+    .icon{
+        color: #2d2dab;
+        padding-right: 1rem;
+    }
+
+
+
+    .skills{
+        font-size: 0.75rem;
+        align-items: center;
+        text-align: center  ;
+        text-transform: uppercase;
+        padding: 1rem 0.5rem 1rem 0.5rem;  
+    }
+
+    .skills-title{
+        display: flex;
+        justify-content: center;
+    }
+
+    .skill-name{
+    font-size: 0.65rem;
+    font-weight: 0.65rem;
+    padding-bottom: 0.5rem;
+    text-align: left;
+
+    }
+
+    .progress-bar{
+            border: 1px solid white;
+            background-color: white;
+        height: 4px;
+        border-radius: 2rem;
+        grid-column: span1;
+        }
+
+    .right-section{
+        grid-column: span 1 / span 2;
+        background-color: white;
+        padding: 2rem 3rem 2rem 3rem;
+    }
+
+    .right-title{
+       
+        font-size: 1.2rem;
+        font-weight: 700;
+        padding: 0.5rem;
+        letter-spacing: 1px;
+
+    }
+
+    .education{
+        DISPLAY: grid;
+        grid-template-columns: 70% 30%;
+        padding: 1rem;
+        text-align: justify;
+    }
+
+    .experiance{    
+        DISPLAY: grid;
+        grid-template-columns: 70% 30%;
+        padding: 1rem;
+    }
+
+    .projects{
+        DISPLAY: grid;
+        grid-template-columns: 70% 30%;
+        padding: 1rem;
+    }
+
+    .common{
+        padding: 1rem;
+    }
+
+    @media screen and (max-width : 673px){
+        .main-content{
+            grid-template-columns: repeat(1, 1fr);
+    }
+    }
